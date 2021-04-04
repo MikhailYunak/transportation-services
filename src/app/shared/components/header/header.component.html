@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+
+    <ng-container *ngIf="mobile; else desktop">
+      <button mat-icon-button aria-label="Right menu" (click)="sideNav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </ng-container>
+
+    <div class="logo-wrapper">
+    <a class="link-img-wrap" routerLink="/">
+    <picture>
+      <source media="(min-width:768px)" srcset="../../../../assets/img/logo-lg.png">
+      <img src="../../../../assets/img/logo.png" alt="logo">
+    </picture>
+    </a>
+    </div>
+
+    <ng-template #desktop>
+      <mex-nav-menu></mex-nav-menu>
+    </ng-template>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+
