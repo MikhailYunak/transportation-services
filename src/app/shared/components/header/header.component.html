@@ -20,6 +20,25 @@
       <mex-nav-menu></mex-nav-menu>
     </ng-template>
 
+
+
+    <mat-form-field style="width: 70px">
+      <mat-label>Lang</mat-label>
+      <mat-select style="width: 70px">
+        <mat-option *ngFor="let locale of localesList" [value]="locale.code">
+          <a class="link-white" href="/{{locale.code}}/">
+            <img style="width: 50px; vertical-align: middle;" src="{{locale.flag}}" alt="{{locale.label}}">
+          </a>
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+<!--    <ul>-->
+<!--      <li *ngFor="let locale of localesList">-->
+<!--        <a href="/{{locale.code}}/">{{locale.label}}</a>-->
+<!--      </li>-->
+<!--    </ul>-->
+
   </mat-toolbar-row>
 </mat-toolbar>
 

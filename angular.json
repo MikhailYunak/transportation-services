@@ -38,6 +38,12 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "mex",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "ru": "src/i18n/messages.ru.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -59,6 +65,9 @@
             "scripts": []
           },
           "configurations": {
+            "ru": {
+              "localize": ["ru"]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -96,6 +105,9 @@
           "configurations": {
             "production": {
               "browserTarget": "transportation-services:build:production"
+            },
+            "ru": {
+              "browserTarget": "transportation-services:build:ru"
             }
           }
         },

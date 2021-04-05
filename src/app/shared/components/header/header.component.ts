@@ -10,7 +10,13 @@ export class HeaderComponent implements OnInit {
   @Input() sideNav: any;
   @Input() mobile: boolean | null | undefined;
 
-  constructor() {}
+  public localesList: any[] = [
+    {code: 'eu-US', label: 'English', flag: 'assets/img/flag-united-states.png'},
+    {code: 'ru', label: 'Руский', flag: 'assets/img/flag-russia.png'}
+  ];
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
       .pipe(map(({matches}) => matches));
   }
   ngOnInit(): void {
-    this.mobile$?.subscribe(e => console.log(e));
+    // this.mobile$?.subscribe(e => console.log(e));
   }
 
 }

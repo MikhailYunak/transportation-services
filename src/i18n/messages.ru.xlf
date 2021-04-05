@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="883990259458787984" datatype="html">
+        <source>Home</source>
+        <target>Главная</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">nav menu</note>
+        <note priority="1" from="meaning">home page</note>
+      </trans-unit>
+      <trans-unit id="954702980611036148" datatype="html">
+        <source>Cars</source>
+        <target>Автомобили</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1873431722297177830" datatype="html">
+        <source>About</source>
+         <target>О нас</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">nav menu</note>
+        <note priority="1" from="meaning">site page</note>
+      </trans-unit>
+      <trans-unit id="5043311249759179260" datatype="html">
+        <source>Contact</source>
+        <target>Контакты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">nav menu</note>
+        <note priority="1" from="meaning">site page</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
